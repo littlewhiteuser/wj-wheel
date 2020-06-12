@@ -26,7 +26,7 @@ git commit -m 'deploy docs'
 
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:sillyY/ele-vue.git master:gh-pages
+git push -f git@github.com:littlewhiteuser/wj-wheel.git master:gh-pages
 
 cd -
 

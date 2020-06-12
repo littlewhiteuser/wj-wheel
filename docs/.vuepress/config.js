@@ -12,7 +12,7 @@ module.exports = {
       }
     },
     themeConfig: {
-      repo: 'sillyY/ele-vue',
+      repo: 'littlewhiteuser/wj-wheel',
       editLinks: true,
       docsDir: 'docs',
       locales: {
@@ -101,25 +101,25 @@ module.exports = {
         }
       }
     },
-    base: '/ele-vue/',
+    base: '/wj-wheel/',
     head: [
       ['link', { rel: 'icon', href: '/favicon.png' }],
-      ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }],
-      ['script', { src: 'https://unpkg.com/element-ui/lib/index.js' }],
+      // ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }],
+      // ['script', { src: 'https://unpkg.com/element-ui/lib/index.js' }],
       ['script', { src: 'https://unpkg.com/iview/dist/iview.min.js' }],
-      [
-        'script',
-        {
-          src: 'https://cdn.jsdelivr.net/npm/ele-vue@0.2.9/lib/ele-vue.umd.min.js'
-        }
-      ],
-      [
-        'link',
-        {
-          rel: 'stylesheet',
-          href: 'https://unpkg.com/element-ui/lib/theme-chalk/index.css'
-        }
-      ],
+      // [
+      //   'script',
+      //   {
+      //     src: 'https://cdn.jsdelivr.net/npm/ele-vue@0.2.9/lib/ele-vue.umd.min.js'
+      //   }
+      // ],
+      // [
+      //   'link',
+      //   {
+      //     rel: 'stylesheet',
+      //     href: 'https://unpkg.com/element-ui/lib/theme-chalk/index.css'
+      //   }
+      // ],
       [
         'link',
         {
